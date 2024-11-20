@@ -1,26 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-        background-color: rgb(17, 17, 17);
-        color: white;
-    }
-    .cabeçalho {
-        background-color: rgb(59, 193, 255);
-        
-    }
+    font-family: Arial, sans-serif;
+    background-color: rgb(202, 202, 202)
+}
 
 
+header {
+    background-color: #131921;
+    color: white;
+}
 
-.cabeçalho  li{
+.inicio {
     display: flex;
-    text-decoration: underline;
-    font-family: arial;
-    list-style-type: none;
-    
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
 
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.barra_pesquisa {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 4px;
+    width: 50%;
+    padding: 5px;
+}
+
+.barra_pesquisa input {
+    border: none;
+    padding: 10px;
+    width: 100%;
+}
+
+.barra_pesquisa button {
+    padding: 10px;
+    background-color: #FF9900;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.Produtos {
+    background-color: rgb(202, 202, 202)
 }
 
 
 .Produtos img {
-    width: 300px;
-    height: 300px;
+    
+    width: 300px;  
+    height: 300px;  
+    object-fit: cover;  
+    border-radius: 8px;  
     
 }
