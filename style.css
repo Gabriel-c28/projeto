@@ -67,6 +67,9 @@ header {
     background-color: rgb(202, 202, 202)
 }
 
+.Produtos a{
+    text-decoration: none;
+}
 
 .Produtos img {
     
@@ -75,4 +78,19 @@ header {
     object-fit: cover;  
     border-radius: 8px;  
     
+}
+
+.rodape {
+    
+    color: white;
+    background-color: #131921;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5% 0% 100% 0%;
+
+}
+.rodape a{
+    color: white;
+    text-decoration: none;
+    margin: 0px 10px;
+
 }
